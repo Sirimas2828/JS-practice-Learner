@@ -49,22 +49,22 @@ https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 
 ## Test
 
-หากทำโจทย์เสร็จแล้วต้องการ Test ให้ใช้คำสั่งนี้ใน terminal
+หากทำโจทย์เสร็จแล้วต้องการ Test ให้ใช้คำสั่งนี้ใน terminal (การเว้นวรรคมีผลต่อคำสั่ง ระวังเว้นวรรคผิด)
 
 ```bash
-npm test --ชื่อโฟล์เดอร์/index.test.js
+npm test -- ชื่อโฟล์เดอร์/index.test.js
 ```
 
 เช่น หากต้องการ test โจทย์ข้อที่ 1
 
 ```bash
-npm test --1/index.test.js
+npm test -- 1/index.test.js
 ```
 
 เช่น หากต้องการ test โจทย์ข้อที่ 4
 
 ```bash
-npm test --4/index.test.js
+npm test -- 4/index.test.js
 ```
 ---
 
